@@ -28,9 +28,9 @@ For Firefox, navigate to `about:debugging` and enable `add-on debugging`. Then u
 
 ## Usage
 
-For CSS overrides, place a file with the full domain name and a `.css` extension into the `CSS` folder. For example, to customize Google Calendar first create a file called `css/calendar.google.com.css`. Next, save your custom styles into the file. Finally, reload a Google Calendar webpage to view your custom styles.
+For CSS overrides, place a file with the full domain name and a `.css` extension into the `overrides/css` folder. For example, to customize Google Calendar first create a file called `overrides/css/calendar.google.com.css`. Next, save your custom styles into the file. Finally, reload a Google Calendar webpage to view your custom styles.
 
-For JS overrides, place a file with the full domain name and a `.js` extension into the `JS` folder. For example, to run a custom function on Slack first create a file called `js/app.slack.com.js`. Next, save your custom JavaScript into the file. Finally, reload a Slack webpage to run your custom code.
+For JS overrides, place a file with the full domain name and a `.js` extension into the `overrides/js` folder. For example, to run a custom function on Slack first create a file called `overrides/js/app.slack.com.js`. Next, save your custom JavaScript into the file. Finally, reload a Slack webpage to run your custom code.
 
 CSS and JS file names must exactly match the address of the site you are visiting. There are no wildcards so making a file like `youtube.com.css` would not work if YouTube always insists on redirecting you to `www.youtube.com`. In this case renaming your custom CSS file to `www.youtube.com.css` would resolve the file naming issue.
 
