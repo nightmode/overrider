@@ -1,0 +1,28 @@
+{
+    "background": {
+        "service_worker": "background.js"
+    },
+    "description": "Custom CSS and JavaScript overrides.",
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "icons": {
+        "16":  "images/icon/logo/logo-dark-16.png",
+        "24":  "images/icon/logo/logo-dark-24.png",
+        "32":  "images/icon/logo/logo-dark-32.png",
+        "48":  "images/icon/logo/logo-dark-48.png",
+        "64":  "images/icon/logo/logo-dark-64.png",
+        "96":  "images/icon/logo/logo-dark-96.png",
+        "128": "images/icon/logo/logo-dark-128.png"
+    },
+    "manifest_version": 3,
+    "minimum_chrome_version": "88",
+    "name": "Overrider",
+    "permissions": [
+        "scripting",
+        "tabs"
+    ],
+    "short_name": "Overrider",
+    "version": "2025.9.26.0"
+}
