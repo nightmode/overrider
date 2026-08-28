@@ -1,3 +1,5 @@
+**This software is no longer being tested or updated.**
+
 # Overrider
 
 A web browser extension for custom CSS and JavaScript overrides.
